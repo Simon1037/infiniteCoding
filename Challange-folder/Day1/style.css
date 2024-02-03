@@ -1,0 +1,58 @@
+/* Do research for what this does O__O*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--primay-color);
+  text-decoration: none;
+}
+/* Used to remove the default margin on the body element*/
+body {
+  margin: 0;
+  background-color: var(--background);
+}
+
+:root {
+  --background: #cdc0ba;
+  --primay-color: #1c1310;
+  --secondary-color: #edeae2;
+}
+
+/* -------------------- */
+
+body {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.details_card {
+  background-color: var(--secondary-color);
+  border-radius: 2rem;
+  padding: 3rem;
+}
+
+.con-row-2 {
+  display: flex;
+}
+
+.btn {
+  border-style: solid;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
